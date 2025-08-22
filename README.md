@@ -49,10 +49,10 @@ Every request to protected routes must include a valid token in the header:
 - Data: DataBase Connection
 
 # EndPoints (Swegger)
-POST - /api/auth/register
-POST - /api/auth/login
-GET - /api/User
-(See more on swagger)
+- POST - /api/auth/register
+- POST - /api/auth/login
+- GET - /api/User
+- (See more on swagger)
 
 GET is necessary put bearer before token code!
 
