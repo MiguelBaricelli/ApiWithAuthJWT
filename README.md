@@ -17,12 +17,12 @@ This project was an opportunity to put into practice **security best practices**
 
 # 📌 API Documentation
 
-## 🔑 Authentication & Authorization
+## Authentication & Authorization
 This API uses **JWT (JSON Web Token)** for authentication and authorization.  
 Every request to protected routes must include a valid token in the header:
 
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 1. Clone the repository  
    ```bash
    git clone https://github.com/miguelbaricelli/ApiWithAuthJWT.git
@@ -57,7 +57,7 @@ Every request to protected routes must include a valid token in the header:
 GET is necessary put bearer before token code!
 
 #Technologies Used
-  - .Net Core / C#
+  - .Net 8 / C#
   - Entity Framework Core (migrations & database)
   - JWT (JSON Web Token)
   - Password hashing & encryption
