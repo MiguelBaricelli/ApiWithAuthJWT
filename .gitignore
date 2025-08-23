@@ -1,0 +1,69 @@
+# Rider IDE
+.idea/
+*.sln.iml
+*.csproj.user
+*.userprefs
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet packages
+packages/
+*.nupkg
+.nuget/
+nuget.exe
+
+# Local development settings (ignora arquivos de desenvolvimento, mantém o principal)
+appsettings.*.json
+!appsettings.json
+
+# OS generated files
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Backup files
+*.backup.*
+*.bak.*
+*.tmp
+
+# Build artifacts
+*.suo
+*.cache
+*.dotCover
+*.pidb
+*.log
+
+# Azure Functions
+AzureFunctionsTools/
+
+# Resharper
+_ReSharper*/
+*.ReSharper
+
+# MSTest
+TestResults/
+*.VisualState.xml
+
+# Code coverage
+coverage.xml
+coverage.json
+*.coverage
